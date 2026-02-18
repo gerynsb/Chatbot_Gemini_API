@@ -27,7 +27,6 @@ Gaya bicaramu:
 # Konfigurasi Gemini
 try:
     genai.configure(api_key=api_key)
-    # PENTING: Gunakan 'gemini-1.5-flash' (jangan 2.5 atau pro dulu biar stabil)
     model = genai.GenerativeModel(
         model_name='gemini-2.5-flash',
         system_instruction=instruksi_kakak

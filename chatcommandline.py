@@ -10,7 +10,7 @@ api_key = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=api_key)
 
 generation_config = {
-  "temperature": 1,        # 1 = Kreatif, 0 = Fokus/Kaku
+  "temperature": 1,        
   "top_p": 0.95,
   "top_k": 64,
   "max_output_tokens": 8192,
